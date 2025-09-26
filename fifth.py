@@ -1,15 +1,18 @@
 #1 ----------------------------------------
-#Myset = {2, 5, 3, 11, 7, 6}
-#pod_my_set = set()
-#for i in Myset:
-#    if i % 2 == 0:
-#        pod_my_set.add(i)
-#print(pod_my_set)
+Myset = {2, 5, 3, 11, 7, 6}
+pod_my_set = set()
+for i in Myset:
+   if i % 2 == 0:
+       pod_my_set.add(i)
+print(pod_my_set)
+print('----------------------------------')
 
 #2 ----------------------------------------
-#my_set = {2, 5, 3, 11, 7, 6}
-#for element in sorted(my_set):
-#    print(element)
+my_set = {2, 5, 3, 11, 7, 6}
+for element in sorted(my_set):
+   print(element)
+
+print('----------------------------------')
 
 #3 ----------------------------------------
 def count_unique_numbers(my_set):
